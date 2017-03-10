@@ -37,8 +37,9 @@
   font-size: 16px;
   font-weight: normal;
   padding: 11px 16px;
+  display: inline-block;
 }
 
-.login-form__identify:active {
+.login-form__identificate:active {
   background-color: #3b88c3;
 }

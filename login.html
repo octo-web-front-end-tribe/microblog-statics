@@ -8,32 +8,35 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Font-awesome -->
+    <script src="https://use.fontawesome.com/a35225a07e.js"></script>
+
     <link rel="stylesheet" href="styles/app.css">
   </head>
 </head>
 <body>
 <div class="app">
+  <div class="navigation-bar ember-view"><!----></div>
   <div class="login">
+
     <div class="login-header">
       <div class="login-header__logo">
-        <img src="images/ember-logo.png" class="login-header__logo-image">
+        <img class="login-header__logo-image" src="images/ember-logo.png">
       </div>
     </div>
+
     <div class="login-body">
-      <div class="login-body__description">
-        <p>Has autem provincias, quas Orontes ambiens amnis imosque pedes Cassii montis illius celsi praetermeans funditur in Parthenium mare, Gnaeus Pompeius superato Tigrane regnis Armeniorum abstractas dicioni Romanae coniunxit.</p>
-      </div>
+      <p class="login-body__description">Has autem provincias, quas Orontes ambiens amnis imosque pedes Cassii montis illius celsi praetermeans funditur in Parthenium mare, Gnaeus Pompeius superato Tigrane regnis Armeniorum abstractas dicioni Romanae coniunxit.</p>
       <div class="login-body__form">
-        <div class="login-form">
-        <form class="login-form__form">
+        <div class="login-form ember-view"><form class="login-form__form" data-ember-action="" data-ember-action-380="380">
           <div class="login-form__control">
-            <input type="text" autocomplete="username" placeholder="Votre nom d'utilisateur" autofocus="true" class="login-form__username">
+            <input type="text" autocomplete="username" placeholder="Votre nom d'utilisateur" autofocus="" class="login-form__username ember-text-field ember-view">
           </div>
           <div class="login-form__control">
-            <button type="submit" class="login-form__identificate">S'identifier</button>
+            <a class="login-form__identify" href="index.html">S'identifier</a>
           </div>
         </form>
-      </div>
+        </div>
       </div>
     </div>
   </div>
